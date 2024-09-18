@@ -21,27 +21,29 @@ void scale(int x, int y) {
   noStroke();
  int diam = 0;
 float r = 255;
-noFill();
-while(diam < 90){
-  stroke(r,100,0);
+
+while(diam < 150){
+  noFill();
+  stroke(r,100,200);
   ellipse (x,y, 100, diam);
   diam++;
-  r-=255/90.0;
-  //ellipse (x,y, 80, 50);
-  
- 
-  
-  
-  //noStroke();
-  //fill(145, 16, 7);
-  //ellipse(x+10, y+20, 40, 40);
-  //rect(x,y, 50, 100);
-  
-  
-  
+  r-=255/150.0;
+  noStroke();
+  fill(247,104,226);
+  ellipse(x,y,50,100);
 
+
+  
+  
+  
 }
 
+
+
+
+
+
+}
  
   
   
